@@ -22,6 +22,8 @@ class Group {
   };
 }
 
+module.exports = Group;
+
 let group = Group.from([10, 20]);
 console.log(group.has(10));
 // → true
