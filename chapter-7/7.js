@@ -126,6 +126,7 @@ function findRoute(graph, from, to) {
   }
 }
 
+// (VillageState, Array) -> {direction: string, memory: Array}
 function goalOrientedRobot({ place, parcels }, route) {
   if (route.length == 0) {
     let parcel = parcels[0];
